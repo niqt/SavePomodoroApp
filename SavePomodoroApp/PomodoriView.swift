@@ -6,10 +6,29 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct PomodoriView: View {
+    @Query private var pomodori: [PomodoroItem]
+    @State var isPresented = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                ForEach(pomodori) { pomodoro in
+                    Text(pomodoro.name)
+                }
+            }
+            .toolbar {
+                ToolbarItem {
+                    Button(action: {isPresented = true}) {
+                        Label("Add Pomodoro", systemImage: "plus")
+                    }
+                }
+            }.sheet(isPresented: $isPresented, content: {
+                PomodoroView()
+            })
+        }
     }
 }
 

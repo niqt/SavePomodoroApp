@@ -12,7 +12,8 @@ import SwiftData
 struct SavePomodoroAppApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            PomodoroItem.self,
+            ProjectItem.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

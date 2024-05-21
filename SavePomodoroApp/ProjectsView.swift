@@ -6,10 +6,30 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ProjectsView: View {
+    @Query private var projects: [ProjectItem]
+    @State var isPresented = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                ForEach(projects) { project in
+                    Text(project.name)
+                    
+                }
+            }
+            .toolbar {
+                ToolbarItem {
+                    Button(action: {isPresented = true}) {
+                        Label("Add Project", systemImage: "plus")
+                    }
+                }
+            }.sheet(isPresented: $isPresented, content: {
+                ProjectView()
+            })
+        }
     }
 }
 

@@ -9,18 +9,28 @@
 /* Begin PBXBuildFile section */
 		B31010D62BF8B0F400A0EB35 /* SavePomodoroAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31010D52BF8B0F400A0EB35 /* SavePomodoroAppApp.swift */; };
 		B31010D82BF8B0F400A0EB35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31010D72BF8B0F400A0EB35 /* ContentView.swift */; };
-		B31010DA2BF8B0F400A0EB35 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31010D92BF8B0F400A0EB35 /* Item.swift */; };
 		B31010DC2BF8B0F600A0EB35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31010DB2BF8B0F600A0EB35 /* Assets.xcassets */; };
 		B31010DF2BF8B0F600A0EB35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31010DE2BF8B0F600A0EB35 /* Preview Assets.xcassets */; };
+		B31010E62BF8B17B00A0EB35 /* PomodoroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31010E52BF8B17B00A0EB35 /* PomodoroItem.swift */; };
+		B31011022BFBB2A800A0EB35 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31011012BFBB2A800A0EB35 /* ProjectsView.swift */; };
+		B31011042BFBB32E00A0EB35 /* ProjectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31011032BFBB32E00A0EB35 /* ProjectItem.swift */; };
+		B31011062BFBB52000A0EB35 /* ProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31011052BFBB52000A0EB35 /* ProjectView.swift */; };
+		B31011082BFBC07B00A0EB35 /* PomodoriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31011072BFBC07B00A0EB35 /* PomodoriView.swift */; };
+		B310110A2BFBC13200A0EB35 /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31011092BFBC13200A0EB35 /* PomodoroView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B31010D22BF8B0F400A0EB35 /* SavePomodoroApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SavePomodoroApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31010D52BF8B0F400A0EB35 /* SavePomodoroAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavePomodoroAppApp.swift; sourceTree = "<group>"; };
 		B31010D72BF8B0F400A0EB35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B31010D92BF8B0F400A0EB35 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		B31010DB2BF8B0F600A0EB35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B31010DE2BF8B0F600A0EB35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B31010E52BF8B17B00A0EB35 /* PomodoroItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroItem.swift; sourceTree = "<group>"; };
+		B31011012BFBB2A800A0EB35 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		B31011032BFBB32E00A0EB35 /* ProjectItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectItem.swift; sourceTree = "<group>"; };
+		B31011052BFBB52000A0EB35 /* ProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectView.swift; sourceTree = "<group>"; };
+		B31011072BFBC07B00A0EB35 /* PomodoriView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoriView.swift; sourceTree = "<group>"; };
+		B31011092BFBC13200A0EB35 /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +63,14 @@
 		B31010D42BF8B0F400A0EB35 /* SavePomodoroApp */ = {
 			isa = PBXGroup;
 			children = (
+				B31010E52BF8B17B00A0EB35 /* PomodoroItem.swift */,
+				B31011092BFBC13200A0EB35 /* PomodoroView.swift */,
+				B31011052BFBB52000A0EB35 /* ProjectView.swift */,
 				B31010D52BF8B0F400A0EB35 /* SavePomodoroAppApp.swift */,
+				B31011012BFBB2A800A0EB35 /* ProjectsView.swift */,
 				B31010D72BF8B0F400A0EB35 /* ContentView.swift */,
-				B31010D92BF8B0F400A0EB35 /* Item.swift */,
+				B31011032BFBB32E00A0EB35 /* ProjectItem.swift */,
+				B31011072BFBC07B00A0EB35 /* PomodoriView.swift */,
 				B31010DB2BF8B0F600A0EB35 /* Assets.xcassets */,
 				B31010DD2BF8B0F600A0EB35 /* Preview Content */,
 			);
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B310110A2BFBC13200A0EB35 /* PomodoroView.swift in Sources */,
+				B31011022BFBB2A800A0EB35 /* ProjectsView.swift in Sources */,
+				B31011082BFBC07B00A0EB35 /* PomodoriView.swift in Sources */,
 				B31010D82BF8B0F400A0EB35 /* ContentView.swift in Sources */,
-				B31010DA2BF8B0F400A0EB35 /* Item.swift in Sources */,
 				B31010D62BF8B0F400A0EB35 /* SavePomodoroAppApp.swift in Sources */,
+				B31011062BFBB52000A0EB35 /* ProjectView.swift in Sources */,
+				B31011042BFBB32E00A0EB35 /* ProjectItem.swift in Sources */,
+				B31010E62BF8B17B00A0EB35 /* PomodoroItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SavePomodoroApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AHGUK54A9X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -304,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SavePomodoroApp/Preview Content\"";
+				DEVELOPMENT_TEAM = AHGUK54A9X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
